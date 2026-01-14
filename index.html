@@ -3,53 +3,221 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mandel Kenol Porfolio 2025</title>
+    <title>Mandel Kenol - Portfolio 2025</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- AOS Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <!-- Your CSS File -->
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <main>
-        <h1>Bienvenue sur mon Portfolio de Stage 2025</h1>
-        <p>Bonjour! Je m'appelle Mandel Kenol et je suis ravi de vous présenter mon portfolio de stage pour l'année 2025. Vous trouverez ici des informations sur mes compétences, mes expériences passées, ainsi que les projets sur lesquels j'ai travaillé.</p>
-        <section>
-            <h2>À propos de moi</h2>
-            <p>Je suis un étudiant passionné par le développement web et la technologie. J'aime apprendre de nouvelles choses et relever des défis.</p>
-        </section>
-        <section>
-            <h2>Compétences</h2>
-            <ul>
-                <li>HTML/CSS</li>
-                <li>JavaScript</li>
-                <li>Java</li>
-                <li>Python</li>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">MK</div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Accueil</a></li>
+                <li><a href="#about" class="nav-link">À Propos</a></li>
+                <li><a href="#skills" class="nav-link">Compétences</a></li>
+                <li><a href="#projects" class="nav-link">Projets</a></li>
+                <li><a href="#resume" class="nav-link">CV</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
             </ul>
-        </section>
-        <section>
-            <h2>Frameworks et Bibliothèques</h2>
-            <ul>
-                <li>SpringBoot</li>
-                <li>JavaFx</li>
-            </ul>
-        </section>
-        <section>
-            <h2>Expériences</h2>
-            <p>J'ai effectué un stage dans une compagnie de jeux vidéo en 2023</p>
-        </section>
-        <section>
-            <h2>Projets</h2>
-            <p>Voici quelques projets sur lesquels j'ai travaillé :</p>
-            <ul>
-                <li>Robot de sondage sur Twitch</li>
-                <li>Visualisateur d'algorithme de tris</li>
-                <li>Cette page web !</li>
-            </ul>
-        </section>
-        <section>
-            <h2>Contact</h2>
-            <p>N'hésitez pas à me contacter pour toute opportunité de stage .
-                <ul>
-                    <li>Email: <a href="mailto:mandelkenol@outlook.com">mandelkenol@outlook.com</a></li>
-                    <li>GitHub: <a href="https://github.com/Mandel556">Mon profil GitHub</a></li>
-                </ul>
-        </section>
-    </main>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content" data-aos="fade-up">
+            <h1>Bonjour, je suis <span class="highlight">Mandel Kenol</span></h1>
+            <p class="hero-subtitle">Développeur Web & Passionné de Technologie</p>
+            <p class="hero-description">À la recherche d'un stage pour l'été 2025</p>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn btn-primary">Voir mes projets</a>
+                <a href="#contact" class="btn btn-secondary">Me contacter</a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section about-section">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">À Propos de Moi</h2>
+            <div class="about-content" data-aos="fade-up" data-aos-delay="100">
+                <p>Je suis un étudiant passionné par le développement web et la technologie. J'aime apprendre de nouvelles choses et relever des défis. En 2023, j'ai eu l'opportunité d'effectuer un stage dans une compagnie de jeux vidéo, ce qui m'a permis de développer mes compétences techniques et mon esprit d'équipe.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section skills-section">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Compétences</h2>
+            <div class="skills-grid">
+                <div class="skill-card" data-aos="fade-up" data-aos-delay="100">
+                    <i class="fab fa-html5"></i>
+                    <h3>HTML/CSS</h3>
+                </div>
+                <div class="skill-card" data-aos="fade-up" data-aos-delay="200">
+                    <i class="fab fa-js"></i>
+                    <h3>JavaScript</h3>
+                </div>
+                <div class="skill-card" data-aos="fade-up" data-aos-delay="300">
+                    <i class="fab fa-java"></i>
+                    <h3>Java</h3>
+                </div>
+                <div class="skill-card" data-aos="fade-up" data-aos-delay="400">
+                    <i class="fab fa-python"></i>
+                    <h3>Python</h3>
+                </div>
+            </div>
+            <div class="frameworks-section" data-aos="fade-up" data-aos-delay="500">
+                <h3 class="subsection-title">Frameworks & Bibliothèques</h3>
+                <div class="frameworks-list">
+                    <span class="framework-tag">SpringBoot</span>
+                    <span class="framework-tag">JavaFX</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section projects-section">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Mes Projets</h2>
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="project-image">
+                        <img src="assets/projects/project1.png" alt="Robot de sondage Twitch" onerror="this.src='https://via.placeholder.com/400x250/667eea/ffffff?text=Robot+Twitch'">
+                        <div class="project-overlay">
+                            <button class="btn-view" onclick="openProjectModal('project1')">Voir Détails</button>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Robot de Sondage Twitch</h3>
+                        <p>Un bot interactif pour créer et gérer des sondages en temps réel sur Twitch.</p>
+                        <div class="project-tags">
+                            <span>Python</span>
+                            <span>Twitch API</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="project-image">
+                        <img src="assets/projects/project2.png" alt="Visualisateur d'algorithmes" onerror="this.src='https://via.placeholder.com/400x250/f093fb/ffffff?text=Algo+Visualizer'">
+                        <div class="project-overlay">
+                            <button class="btn-view" onclick="openProjectModal('project2')">Voir Détails</button>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Visualisateur d'Algorithmes de Tri</h3>
+                        <p>Application interactive pour visualiser différents algorithmes de tri en action.</p>
+                        <div class="project-tags">
+                            <span>JavaScript</span>
+                            <span>HTML/CSS</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="project-image">
+                        <img src="assets/projects/project3.png" alt="Portfolio" onerror="this.src='https://via.placeholder.com/400x250/4facfe/ffffff?text=Portfolio+Web'">
+                        <div class="project-overlay">
+                            <button class="btn-view" onclick="openProjectModal('project3')">Voir Détails</button>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Portfolio Personnel</h3>
+                        <p>Ce site web portfolio moderne et responsive créé avec HTML, CSS et JavaScript.</p>
+                        <div class="project-tags">
+                            <span>HTML/CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Project Modal -->
+    <div id="projectModal" class="modal">
+        <div class="modal-content">
+            <span class="modal-close" onclick="closeProjectModal()">&times;</span>
+            <div id="modalBody">
+                <!-- Content will be loaded dynamically -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Resume Section -->
+    <section id="resume" class="section resume-section">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Mon CV</h2>
+            <div class="resume-container" data-aos="fade-up" data-aos-delay="100">
+                <div class="resume-actions">
+                    <a href="assets/resume.pdf" download class="btn btn-primary">
+                        <i class="fas fa-download"></i> Télécharger le CV
+                    </a>
+                </div>
+                <div class="pdf-viewer">
+                    <iframe src="assets/resume.pdf" width="100%" height="600px"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact-section">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Contactez-Moi</h2>
+            <p class="contact-intro" data-aos="fade-up" data-aos-delay="100">
+                N'hésitez pas à me contacter pour toute opportunité de stage ou pour discuter de projets passionnants !
+            </p>
+            <div class="contact-methods" data-aos="fade-up" data-aos-delay="200">
+                <a href="mailto:mandelkenol@outlook.com" class="contact-card">
+                    <i class="fas fa-envelope"></i>
+                    <h3>Email</h3>
+                    <p>mandelkenol@outlook.com</p>
+                </a>
+                <a href="https://github.com/Mandel556" target="_blank" class="contact-card">
+                    <i class="fab fa-github"></i>
+                    <h3>GitHub</h3>
+                    <p>@Mandel556</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2025 Mandel Kenol. Tous droits réservés.</p>
+    </footer>
+
+    <!-- AOS Animation Library -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    
+    <!-- Your JavaScript File -->
+    <script src="script.js"></script>
 </body>
 </html>
