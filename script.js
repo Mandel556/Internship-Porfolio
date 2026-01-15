@@ -37,27 +37,27 @@ window.addEventListener('scroll', () => {
 const projectData = {
     project1: {
         title: "Robot de Sondage Twitch",
-        description: "Un bot interactif développé en Python qui permet aux streamers de créer et gérer des sondages en temps réel sur Twitch. Les viewers peuvent voter en utilisant des commandes dans le chat, et les résultats sont affichés en direct. Ce projet m'a permis de travailler avec l'API Twitch et d'apprendre à gérer des flux de données en temps réel.",
+        description: "Un bot interactif développé en SpringBoot qui permet aux streamers de créer et gérer des sondages en temps réel sur Twitch. Les viewers peuvent voter en utilisant des commandes dans le chat, et les résultats sont affichés en direct. Ce projet m'a permis de travailler avec l'API Twitch et d'apprendre à gérer des flux de données en temps réel.",
         images: [
             "assets/projects/twitch1.png",
             "assets/projects/twitch2.png",
-            "assets/projects/twitch3.png"
         ],
-        video: "", // Add YouTube embed URL here if you have one
-        github: "https://github.com/Mandel556/twitch-poll-bot", // Update with real link
-        tags: ["Python", "Twitch API", "WebSocket"]
+        video: "assets/projects/pollVideo.mp4",
+        isLocalVideo: true,  
+        github: "https://github.com/Mandel556/Twitch-bot-polls-",
+        tags: ["SpringBoot", "Java", "Twitch API"]  
     },
     project2: {
         title: "Visualisateur d'Algorithmes de Tri",
-        description: "Une application web interactive qui permet de visualiser le fonctionnement de différents algorithmes de tri (Bubble Sort, Quick Sort, Merge Sort, etc.). L'utilisateur peut ajuster la vitesse d'animation et la taille du tableau pour mieux comprendre comment chaque algorithme fonctionne. Ce projet m'a aidé à approfondir mes connaissances en structures de données et algorithmes.",
+        description: "Une application web interactive qui permet de visualiser le fonctionnement de différents algorithmes de tri. L'utilisateur peut ajuster la vitesse d'animation et la taille du tableau pour mieux comprendre comment chaque algorithme fonctionne. Ce projet m'a aidé à approfondir mes connaissances en structures de données et algorithmes.",
         images: [
             "assets/projects/sorting1.png",
             "assets/projects/sorting2.png",
-            "assets/projects/sorting3.png"
         ],
-        video: "", // Add YouTube embed URL here if you have one
+        video: "assets/projects/sortVideo.mp4", 
+        isLocalVideo: true, 
         github: "https://github.com/Mandel556/sorting-visualizer", // Update with real link
-        tags: ["JavaScript", "HTML/CSS", "Algorithms"]
+        tags: ["JavaFX", "HTML/CSS", "Algorithms"]
     },
     project3: {
         title: "Portfolio Personnel",
@@ -68,7 +68,7 @@ const projectData = {
             "assets/projects/portfolio3.png"
         ],
         video: "",
-        github: "https://github.com/Mandel556/portfolio", // Update with real link
+        github: "https://github.com/Mandel556/Internship-Porfolio", // Update with real link
         tags: ["HTML", "CSS", "JavaScript", "Responsive Design"]
     }
 };
